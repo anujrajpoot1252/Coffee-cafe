@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 213, 158);
+    color: rgb(53, 29, 3); 
+}
+.main-header {
+    background-color: rgb(201, 130, 68); 
+    color: rgb(31, 20, 2);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.main-nav li {
+    margin-left: 20px;
+
+}
+
+.main-nav a {
+    color: rgb(234, 153, 67);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero-section {
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.primary-btn {
+    background-color: rgba(236, 118, 58, 0.678); 
+    color: rgb(44, 7, 7);
+}
+
+.primary-btn:hover {
+    background-color: rgb(245, 207, 207); 
+}
+
+.secondary-btn {
+     background-color: rgba(236, 118, 58, 0.678); 
+    color: rgb(44, 7, 7);
+    margin-left: 10px;
+}
+
+.secondary-btn:hover {
+    background-color: rgb(245, 207, 207); 
+}
+
+footer {
+     background-color: #eca56f;
+    text-align: center;
+    text-decoration: #361101;
+color-scheme: rgb(182, 182, 231);
+}
