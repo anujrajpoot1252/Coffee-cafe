@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1";
-$username = "coffee";
-$password = "coffee123";
-$dbname = "my";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "coffer_cafe";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
